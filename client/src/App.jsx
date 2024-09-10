@@ -9,17 +9,22 @@ import Shop from './components/shop-section/ShopSection'
 import Gift from './components/gift-section/GiftSection'
 import Saving from './components/saving-section/SavingSection'
 
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/home/Home'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-  <Header/>
-  <Slider/>
-  <Shop/>
-  <Saving/>
-  <Gift/>
-  <Footer/>
+       <Header/>
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/shop" element={<Shop />} />
+
+    </Routes>
+    <Footer/>
   </>
   )
 }
