@@ -81,7 +81,7 @@ export default function Slider(){
             </div>
           </div>
         </div>
-        <div class="carousel_btn-box">
+        {/* <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
             <span class="sr-only">Previous</span>
@@ -91,9 +91,10 @@ export default function Slider(){
             <i class="fa fa-arrow-right" aria-hidden="true"></i>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   </section>
+  
   );
 }

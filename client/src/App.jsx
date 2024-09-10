@@ -5,6 +5,9 @@ import './App.css'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Slider from './components/slider/Slider'
+import Shop from './components/shop-section/ShopSection'
+import Gift from './components/gift-section/GiftSection'
+import Saving from './components/saving-section/SavingSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +16,9 @@ function App() {
     <>
   <Header/>
   <Slider/>
+  <Shop/>
+  <Saving/>
+  <Gift/>
   <Footer/>
   </>
   )
