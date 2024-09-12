@@ -1,7 +1,7 @@
 export default function Footer(){
   return (
  
-<div classNameName="info_container ">
+<div className="info_container ">
       
   <section className="info_section  layout_padding2-top">
     <div className="social_container">

@@ -11,6 +11,8 @@ import Saving from './components/saving-section/SavingSection'
 
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/home/Home'
+import Contact from './components/contact/Contact'
+import Register from './components/register/Register'
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
     <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/shop" element={<Shop />} />
-
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/register" element={<Register />} />
     </Routes>
     <Footer/>
   </>

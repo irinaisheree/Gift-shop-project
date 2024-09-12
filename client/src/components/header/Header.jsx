@@ -41,21 +41,28 @@ export default function Header() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
-                to="/testimonial"
-              >
-                Testimonial
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
                 to="/contact"
               >
                 Contact Us
               </NavLink>
             </li>
+            {/* <li className="nav-item">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+                to="/register"
+              >
+                Register
+              </NavLink>
+            </li> */}
           </ul>
           <div className="user_option">
+          <NavLink
+                className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+                to="/register"
+              >
+                 <i className="fa fa-user" aria-hidden="true"></i>
+                 <span>Register</span>
+              </NavLink>
             <NavLink
               className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
               to="/login"
